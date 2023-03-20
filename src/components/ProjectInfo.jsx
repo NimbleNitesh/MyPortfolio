@@ -26,7 +26,7 @@ const projectInfo = () => {
 					<h5 className="high">Analysis of SDG scores 2020</h5>
 					<small>Analysis of SDG scores for 2020-21 by NITI Aayog, India for all states and UTs doing Data Visualisation, Hypothesis Testing and Machine Learning Model using Python.</small>
 				</a>
-				<a href="https://github.com/NimbleNitesh/Portfolio" className="about__card__projects">
+				<a href="https://github.com/NimbleNitesh/MyPortfolio" className="about__card__projects">
 					<AiOutlineFolder size={40} style={{color: "#64ffda", background:"transparent"}} />
 					<FiGithub size={20} style={{color: "#ccd6f6", background:"transparent"}} />
 					<h5 className="high">Portfolio Website</h5>
