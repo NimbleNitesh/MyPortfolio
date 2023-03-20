@@ -1,0 +1,423 @@
+@import url('https://fonts.googleapis.com/css2?family=Sofia+Sans&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Quicksand&display=swap');
+
+
+* {
+  text-decoration: none;
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+  font-family: 'Sofia Sans', sans-serif;
+  background: #0a192f;
+}
+
+:root{
+  --primary-blue: #0047AB;
+  --primary-dark:  rgba(255, 255, 255, 0);
+  --primary-white:  #FFF;
+  --Navy:  #0a192f;
+  --Light-Navy : #112240;
+  --Lightest-Navy: #233554;
+  --Slate: #8892b0;
+  --Light-Slate: #a8b2d1;
+  --Lightest-Slate:  #ccd6f6;
+  --White: #e6f1ff;
+  --Green: #64ffda;
+
+}
+
+/* **************************NAVBAR********************************** */
+.navbar-light {
+    background-color: var(--Navy) !important;
+   
+    position: relative;
+}
+
+.logo{
+    height: 2.5rem;
+    width: 2.5rem;
+    margin-top: 1.563rem;
+}
+
+/* **************************MENU LINKS********************************** */
+nav a.nav-link{
+  font-weight: 500;
+  letter-spacing: 0.0375rem;
+  cursor: pointer;
+}
+nav ul li{
+  text-transform: uppercase;
+}
+
+.navbar-nav > li > a{
+  color: #fff !important;
+  margin-left: 0.75rem;
+  margin-right: 0.75rem;
+  border-top: 0.1875rem solid var(--primary-dark);
+}
+
+.navbar-brand{
+  max-width: 17.25rem;
+  padding: 0 !important;
+  height: 6rem !important;
+}
+
+
+.navbar-nav > li > a.active, .navbar-nav > li > a.active:focus{
+  border-top: 0.1875rem solid var(--Green);
+} 
+
+.navbar-nav > li >a:hover{
+  border-top: 0.1875rem solid var(--Green);
+}
+/* **************************HEADER********************************** */
+
+.header-wrapper{
+  position: relative;
+  background-size: cover;
+  background-position: center;
+  height: 80vh;
+}
+
+.mainInfo{
+  display: flex;
+  flex-direction: column;
+  margin-left: 6rem;
+}
+
+.mainInfo h1 {
+  color: var(--Green);
+  font-family: 'Quicksand', sans-serif;
+  font-size: 1.2rem;
+}
+
+.mainInfo h2 {
+  color: var(--White);
+  font-family: 'Quicksand', sans-serif;
+  font-size: 4rem;
+  font-weight: bold;
+}
+
+.mainInfo h3 {
+  color: var(--Slate);
+/*   font-family: 'Quicksand', sans-serif; */
+  font-weight: bolder;
+  margin-top: 1rem;
+}
+/* **************************TYPED TEXT********************************** */
+.typed-text{
+  font-size: 3rem;
+  color: var(--Slate);
+  margin-left: 0.5rem;
+}
+
+.mainInfo p {
+  color: var(--Light-Slate);
+  font-size: 1.2rem;
+  margin-right: 4rem;
+/*   font-family: 'Quicksand', sans-serif; */
+/*   font-weight: bolder; */
+/*   margin-top: 1rem; */
+}
+
+
+
+
+/* **************************BUTTON********************************** */
+.CTA{
+  text-decoration: none;
+  width: max-content;
+  display: inline-block;
+  color: var(--Green);
+  padding: 0.75rem 1.2rem;
+  border-radius: 0.4rem;
+  cursor: pointer;
+  border: 1px solid var(--Green);
+/*   transition-duration: 0.4s; */
+/*   transition: var(--White); */
+}
+
+.CTA:hover {
+  background-color: var(--Light-Navy);
+  opacity: 0.8;
+/*   filter: alpha(opacity=90); */
+  color: var(--Green);
+  font-weight: 800;
+  border-color: var(--Green);
+}
+
+
+/* **************************ABOUT INFO********************************** */
+.Full{
+  position: relative;
+  background-size: cover;
+  background-position: center;
+  height: 90vh;
+}
+.about__container{
+  display: grid;
+  grid-template-columns: 50% 35%;
+/*   background-color: var(--Navy); */
+  gap: 15%;
+}
+.about__me{
+  width: 100%;
+  aspect-ratio: 1/1;
+  border-radius: 2rem;
+  background: linear-gradient(45deg, transparent, var(--Light-Navy), transparent);
+  display: grid;
+  place-items: center;
+}
+.about__me-image{
+  border-radius: 10rem;
+/*   overflow: hidden; */
+  transform: rotate(10deg);
+  margin-top: 2.5rem;
+}
+.about__me-image:hover{
+  transform: rotate(0);
+}
+.about__cards{
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  gap: 1.5rem;
+}
+.about__content p{
+  color: var(--Light-Slate);
+  font-weight: 300;
+  font-size: 1.2rem;
+  margin-top: 1rem;
+}
+.Full h1{
+  color: var(--Lightest-Slate);
+  font-weight: bolder;
+  font-size: 3rem;
+  margin-left: 5rem;
+}
+.about__card{
+  background-color: var(--Light-Navy);
+  border: 0.25rem solid transparent;
+  border-radius: 1rem;
+  padding: 2rem;
+  text-align: center;
+  transition: 0.3s;
+}
+.about__card small{
+  color: var(--Green);
+  background-color: transparent;
+}
+.about__card h5{
+  color: var(--Slate);
+  background-color: transparent;
+}
+.about__card:hover{
+  background: var(--Lightest-Navy);
+  cursor: default;
+}
+.aboutIcons{
+  color: var(--Slate);
+}
+
+/* **************************PROJECTS********************************** */
+
+.myProject{
+  position: relative;
+  background-size: cover;
+  background-position: center;
+  height: 90vh;
+  margin-bottom: 10rem;
+}
+.myProject h1{
+  color: var(--Lightest-Slate);
+  font-weight: bolder;
+  font-size: 3rem;
+  margin-left: 5rem;
+}
+.project__container{
+  display: grid;
+}
+
+.projectCards{
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  gap: 1.5rem;
+  margin: 4rem;
+  text-decoration: none;
+}
+
+.about__card__projects{
+  background-color: var(--Light-Navy);
+  border: 0.25rem solid transparent;
+  padding: 2rem;
+/*   text-align: center; */
+  transition: 0.3s;
+}
+.about__card__projects:hover {
+  background: var(--Lightest-Navy);
+  cursor: pointer;
+}
+.projectCards a{
+  text-decoration: none;
+}
+.projectCards a h5{
+  font-size: 1.2rem;
+  font-weight: bold;
+  color: var(--Lightest-Slate);
+}
+.about__card__projects:hover .high{
+  color: var(--Green);
+}
+.projectCards a small{
+  color: var(--Slate);
+  background-color: transparent;
+}
+.high{
+  background-color: transparent;
+}
+
+.Handles{
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  gap: 1.5rem;
+  margin: 4rem;
+  text-decoration: none;
+}
+
+.Handles a{
+  text-decoration: none;
+}
+
+.handleCards{
+  background-color: var(--Light-Navy);
+  border: 0.25rem solid transparent;
+  padding: 2rem;
+  text-align: center;
+  transition: 0.3s;
+}
+
+.handleCards:hover {
+  background: var(--Lightest-Navy);
+  cursor: pointer;
+}
+
+.handleCards h5{
+  font-size: 1.2rem;
+  font-weight: bold;
+  color: var(--Lightest-Slate);
+}
+
+.handleCards small{
+  color: var(--Light-Slate);
+  font-size: 1.5rem;
+  background-color: transparent;
+}
+
+.handleCards:hover .high{
+  color: var(--Green);
+}
+
+.Achievements ul{
+  color: var(--Light-Slate);
+  font-size: 1.2rem;
+  margin-left: 5rem;
+}
+/* **************************CONTACT INFO********************************** */
+.contacts h1{
+  color: var(--Green);
+  margin-left: 5rem;
+}
+
+.about__contact{
+  display: grid;
+  grid-template-columns: 58% 30%;
+  gap: 12%;
+}
+.contactOption{
+  gap: 1.5rem;
+  display: flex;
+  flex-direction: column;
+/*   margin: 4rem; */
+  text-decoration: none;
+}
+.about_card_contact{
+  background: var(--Light-Navy);
+  border: 0.25rem solid transparent;
+  padding: 2rem;
+  text-align: center;
+  transition: 0.3s;
+  text-decoration: none;
+/*   margin: 2rem; */
+}
+.about_card_contact:hover {
+  background: var(--Lightest-Navy);
+  cursor: pointer;
+}
+.about_card_contact h5{
+  font-size: 1.6rem;
+  font-weight: bold;
+  color: var(--Lightest-Slate);
+}
+.about_card_contact small{
+  color: var(--Light-Slate);
+  font-size: 1.5rem;
+  background-color: transparent;
+}
+
+.about_card_contact h6{
+  font-size: 1.5rem;
+  color: var(--White);
+  background-color: transparent;
+}
+.about_card_contact:hover .highlight{
+  color: var(--Green);
+}
+
+form{
+  display: flex;
+  flex-direction: column;
+  gap: 1.5rem;
+}
+
+input, textarea{
+  width: 100%;
+  padding: 1.5rem;
+  border-radius: 0.5rem;
+  background: var(--Light-Navy);
+  border: 2px solid var(--Lightest-Navy);
+  resize: none;
+  color: var(--White);
+}
+
+/* **************************RESPONSIVENESS********************************** */
+@media screen and (max-width: 1040px){
+.about__me{
+  display: none;
+}
+.about__container{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+.about__cards{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+.project__container{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+.projectCards{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+.emailid{
+  display: none;
+}
+}
