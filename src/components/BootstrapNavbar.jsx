@@ -3,6 +3,7 @@ import logo from "../assets/logo.png"
 import { FaBars } from "react-icons/fa";
 import "../App.css";
 import "../components/NavbarStyles.css"
+import { Link } from 'react-router-dom';
 
 
 
