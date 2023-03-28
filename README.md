@@ -1,5 +1,5 @@
 # Nitesh's Portfolio Website
-This is the source code for my personal portfolio website. The website is live at https://nimble-nitesh.netlify.app/project
+This is the source code for my personal portfolio website. The website is live at https://nimble-nitesh.netlify.app
 
 # Technologies Used
 The website is built using the following technologies:
