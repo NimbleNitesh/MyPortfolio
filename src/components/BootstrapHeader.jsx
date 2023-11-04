@@ -11,8 +11,8 @@ export default function BootstrapHeader() {
      const options = {
        strings: [
          'Competitive Programmer',
-         'Web Developer',
-         'ML Enthusiast'
+         'Software Developer',
+         'Computer Vision Engineer'
        ],
        typeSpeed: 50,
        backSpeed: 50,
@@ -40,7 +40,8 @@ export default function BootstrapHeader() {
         <span style={{ whiteSpace: 'pre' }} ref={el} />
       </div>
       </h3>
-      <p>I am a highly motivated and ambitious person, always ready to try out new things. I am highly passionate about Competitive Programming and have been pursuing the sport for about 1.5 years. I am actively looking for summer internships in software engineering domain. </p>
+      <p>I'm Nitesh, a passionate web developer with a strong foundation in data structures, algorithms, and modern frameworks. I excel in creating scalable web applications. My experience includes full-stack development and extensive involvement in solving real-world problems. I'm also an enthusiastic competitive programmer, holding impressive ranks in coding competitions.</p>
+      <p>I'm committed to delivering impactful end-to-end solutions and keen to explore new opportunities in <b>software development/computer vision/quantitative finance</b> to contribute to both technical innovation and social sustainability.</p>
       <a href={CV} download className="CTA">Download CV </a>
     </div>
     </div></>

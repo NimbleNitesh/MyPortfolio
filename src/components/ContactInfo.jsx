@@ -1,4 +1,5 @@
 import React from 'react'
+import message from "../assets/message.gif";
 
 const contactInfo = () => {
 	return (
@@ -7,21 +8,7 @@ const contactInfo = () => {
 		<div className="container contact__container">
 			<div className="about__contact">
 			<div className="contactOption">
-				<a href="mailto:nitesh_2001me42@iitp.ac.in" className="about_card_contact">
-					<h5 className="high">Email</h5>
-					<small className="emailid">nitesh_2001me42@iitp.ac.in</small>
-					<h6 className="highlight">Send a mail</h6>
-				</a>
-				<a href="https://t.me/HorridBear" className="about_card_contact">
-					<h5 className="high">Telegram</h5>
-					<small>HorridBear</small>
-					<h6 className="highlight">Send a message</h6>
-				</a>
-				<a href="https://discordapp.com/users/781841339829714946" className="about_card_contact">
-					<h5 className="high">Discord</h5>
-					<small>UnaidedCan #1491</small>
-					<h6 className="highlight">Send a message</h6>
-				</a>
+				<img src={message} alt="message" width={500} height={500} style={{borderRadius: '7rem'}}/>
 			</div>
 			<form action="">
 				<input type="text" name="name" placeholder="Your Full Name" required/>

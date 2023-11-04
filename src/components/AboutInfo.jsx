@@ -15,19 +15,19 @@ export default function AboutInfo() {
 				<article className="about__card">
 					<FaAward className="aboutIcons"/>
 					<h5>Competitive Programming</h5>
-					<small>Data Structures, Algorithms</small>
+					<small>Data Structures, Algorithms, C/C++, Python, Rust, Java</small>
 				</article>
 
 				<article className="about__card">
 					<FaAward className="aboutIcons"/>
 					<h5>Web Development</h5>
-					<small>Experienced with: HTML/CSS, JavaScript , ReactJS,Bootstrap</small>
+					<small>JavaScript, ReactJS, Docker, NodeJS, SQL, Firebase, MongoDB, Redux</small>
 				</article>
 
 				<article className="about__card">
 					<FaAward className="aboutIcons"/>
-					<h5>Projects</h5>
-					<small>5+ projects</small>
+					<h5>Computer Vision</h5>
+					<small>OpenCV, YOLO, GANs, PyTorch, CNN</small>
 				</article>
 				</div>
 				<p>Hello! My name is Nitesh and I enjoy creating things that live on the internet. Currently, I am pursuing my BTech in Mechanical Engineering from IIT Patna.</p>
